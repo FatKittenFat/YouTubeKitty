@@ -13,15 +13,15 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    
+            
+        print("main view controller")
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? RootPageViewController {
             destination.delegateRootPage = self
             rootPageViewController = destination
-            print("main view controller")
         }
     }
 }

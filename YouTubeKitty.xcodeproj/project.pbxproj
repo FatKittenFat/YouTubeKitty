@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1315CABF2C312DD0004FCEFD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315CABE2C312DD0004FCEFD /* HomeViewController.xib */; };
+		1315CAC02C312DD0004FCEFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CABD2C312DD0004FCEFD /* HomeViewController.swift */; };
+		1315CAC32C312DE3004FCEFD /* VideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315CAC22C312DE3004FCEFD /* VideosViewController.xib */; };
+		1315CAC42C312DE3004FCEFD /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CAC12C312DE3004FCEFD /* VideosViewController.swift */; };
+		1315CAC72C312DF1004FCEFD /* PlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315CAC62C312DF1004FCEFD /* PlaylistViewController.xib */; };
+		1315CAC82C312DF1004FCEFD /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CAC52C312DF1004FCEFD /* PlaylistViewController.swift */; };
+		1315CACB2C312DFC004FCEFD /* ChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315CACA2C312DFC004FCEFD /* ChannelsViewController.xib */; };
+		1315CACC2C312DFC004FCEFD /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CAC92C312DFC004FCEFD /* ChannelsViewController.swift */; };
+		1315CACF2C312E07004FCEFD /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315CACE2C312E07004FCEFD /* AboutViewController.xib */; };
+		1315CAD02C312E07004FCEFD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CACD2C312E07004FCEFD /* AboutViewController.swift */; };
+		1315CAD42C312F14004FCEFD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CAD32C312F14004FCEFD /* MainViewController.swift */; };
+		1315CAD82C312FEF004FCEFD /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CAD72C312FEF004FCEFD /* RootPageViewController.swift */; };
+		13AC20652C2D2C0F00942CE6 /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC20642C2D2C0F00942CE6 /* PlaylistModel.swift */; };
 		13F0DD882C23F94100723056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F0DD872C23F94100723056 /* AppDelegate.swift */; };
 		13F0DD8A2C23F94100723056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F0DD892C23F94100723056 /* SceneDelegate.swift */; };
 		13F0DD8C2C23F94100723056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F0DD8B2C23F94100723056 /* ViewController.swift */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1315CABD2C312DD0004FCEFD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1315CABE2C312DD0004FCEFD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1315CAC12C312DE3004FCEFD /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		1315CAC22C312DE3004FCEFD /* VideosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosViewController.xib; sourceTree = "<group>"; };
+		1315CAC52C312DF1004FCEFD /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		1315CAC62C312DF1004FCEFD /* PlaylistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistViewController.xib; sourceTree = "<group>"; };
+		1315CAC92C312DFC004FCEFD /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
+		1315CACA2C312DFC004FCEFD /* ChannelsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelsViewController.xib; sourceTree = "<group>"; };
+		1315CACD2C312E07004FCEFD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1315CACE2C312E07004FCEFD /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		1315CAD32C312F14004FCEFD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1315CAD72C312FEF004FCEFD /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		13AC20642C2D2C0F00942CE6 /* PlaylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
 		13F0DD842C23F94100723056 /* YouTubeKitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeKitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F0DD872C23F94100723056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F0DD892C23F94100723056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +63,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1315CAB12C2E80D8004FCEFD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1315CAD32C312F14004FCEFD /* MainViewController.swift */,
+				1315CAD72C312FEF004FCEFD /* RootPageViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1315CAB72C312D5F004FCEFD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1315CABD2C312DD0004FCEFD /* HomeViewController.swift */,
+				1315CABE2C312DD0004FCEFD /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1315CAB82C312D68004FCEFD /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1315CAC12C312DE3004FCEFD /* VideosViewController.swift */,
+				1315CAC22C312DE3004FCEFD /* VideosViewController.xib */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		1315CABA2C312D73004FCEFD /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				1315CAC52C312DF1004FCEFD /* PlaylistViewController.swift */,
+				1315CAC62C312DF1004FCEFD /* PlaylistViewController.xib */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		1315CABB2C312D80004FCEFD /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				1315CAC92C312DFC004FCEFD /* ChannelsViewController.swift */,
+				1315CACA2C312DFC004FCEFD /* ChannelsViewController.xib */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		1315CABC2C312D87004FCEFD /* About */ = {
+			isa = PBXGroup;
+			children = (
+				1315CACD2C312E07004FCEFD /* AboutViewController.swift */,
+				1315CACE2C312E07004FCEFD /* AboutViewController.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		13AC20632C2D2BE200942CE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13AC20642C2D2C0F00942CE6 /* PlaylistModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		13F0DD7B2C23F94100723056 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +144,13 @@
 		13F0DD862C23F94100723056 /* YouTubeKitty */ = {
 			isa = PBXGroup;
 			children = (
+				1315CABC2C312D87004FCEFD /* About */,
+				1315CABB2C312D80004FCEFD /* Channels */,
+				1315CABA2C312D73004FCEFD /* Playlist */,
+				1315CAB82C312D68004FCEFD /* Videos */,
+				1315CAB72C312D5F004FCEFD /* Home */,
+				1315CAB12C2E80D8004FCEFD /* Main */,
+				13AC20632C2D2BE200942CE6 /* Model */,
 				13F0DD872C23F94100723056 /* AppDelegate.swift */,
 				13F0DD892C23F94100723056 /* SceneDelegate.swift */,
 				13F0DD8B2C23F94100723056 /* ViewController.swift */,
@@ -125,9 +220,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1315CAC72C312DF1004FCEFD /* PlaylistViewController.xib in Resources */,
 				13F0DD912C23F94300723056 /* Assets.xcassets in Resources */,
+				1315CACF2C312E07004FCEFD /* AboutViewController.xib in Resources */,
 				13F0DD942C23F94300723056 /* Base in Resources */,
+				1315CAC32C312DE3004FCEFD /* VideosViewController.xib in Resources */,
 				13F0DD8F2C23F94100723056 /* Base in Resources */,
+				1315CABF2C312DD0004FCEFD /* HomeViewController.xib in Resources */,
+				1315CACB2C312DFC004FCEFD /* ChannelsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +238,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1315CACC2C312DFC004FCEFD /* ChannelsViewController.swift in Sources */,
+				1315CAD42C312F14004FCEFD /* MainViewController.swift in Sources */,
 				13F0DD8C2C23F94100723056 /* ViewController.swift in Sources */,
+				1315CAD02C312E07004FCEFD /* AboutViewController.swift in Sources */,
+				13AC20652C2D2C0F00942CE6 /* PlaylistModel.swift in Sources */,
 				13F0DD882C23F94100723056 /* AppDelegate.swift in Sources */,
+				1315CAC82C312DF1004FCEFD /* PlaylistViewController.swift in Sources */,
+				1315CAC02C312DD0004FCEFD /* HomeViewController.swift in Sources */,
+				1315CAD82C312FEF004FCEFD /* RootPageViewController.swift in Sources */,
+				1315CAC42C312DE3004FCEFD /* VideosViewController.swift in Sources */,
 				13F0DD8A2C23F94100723056 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
